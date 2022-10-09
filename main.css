@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(img/bg.jpg);
+    background-repeat: repeat;
+}
+.main{
+    display: grid;
+    grid-template-columns: 29% 69%;
+    grid-template-areas: 
+    'cabecalho cabecalho'
+    'ideias notation'
+    'sumario sumario';
+    gap: 10px;
+}
+.cabecalho{
+    grid-area: cabecalho;
+    text-align: center;
+    background-color:cadetblue;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ideias{
+    grid-area: ideias;
+    background-color: #fff;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+.notation{
+    grid-area: notation;
+    background-color: #fff;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+.sumario{
+    grid-area: sumario;
+}
