@@ -22,21 +22,59 @@ body{
     border-radius: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
 }
 .ideias{
     grid-area: ideias;
-    background-color: #fff;
+    background-color: rgb(243, 5, 5,0.5);
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    right: 950px;
+    border-radius: 30px;
+    border: solid red 3px; 
+    text-align: center;   
 }
 .notation{
     grid-area: notation;
-    background-color: #fff;
+    background-color: rgb(4, 143, 237,0.5);
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    right: 50px;
+    border-radius: 30px;
+    border: solid blue 3px;
+    text-align: center;
 }
 .sumario{
     grid-area: sumario;
+    background-color: rgb(243, 251, 13,0.5);
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    right: 50px;
+    border-radius: 30px;
+    border: solid rgb(238, 167, 13) 3px;
+}
+.imagem {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+li {
+text-align: left;
+}
+ul {
+text-align: left;
 }
