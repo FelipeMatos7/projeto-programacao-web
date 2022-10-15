@@ -60,12 +60,13 @@ body{
     padding: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
-    position: absolute;
+    position: relative;
     top: 600px;
-    left: 50px;
-    right: 50px;
+    left: 20px;
+    right: 20px;
     border-radius: 30px;
     border: solid rgb(238, 167, 13) 3px;
+    min-height: 120px;
 }
 .imagem {
     position: fixed;
@@ -74,7 +75,36 @@ body{
 }
 li {
 text-align: left;
+list-style: none;
 }
 ul {
 text-align: left;
+}
+.title-area{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
+.input-text{
+    background-color: transparent;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 80%;
+    border-bottom: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.input-text:focus{
+    border-bottom: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+i{
+    font-size: 0.9rem;
+    color: #fff
 }
